@@ -20,6 +20,7 @@ angular.module("acute.select", [])
             "acChange": "&",
             "keyField": "@acKey",
             "model": "=acModel",
+            "comboText": "="
         },
         replace: true,
         templateUrl: defaultSettings.templatePath + "acute.select.htm",
